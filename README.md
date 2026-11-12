@@ -5,7 +5,7 @@ A console-based Tic-Tac-Toe game written in C where a human player (O) competes 
 ## Features
 - **Input Validation:** Safely handles invalid user inputs (letters, out-of-bound numbers, etc.) using `fgets` and `sscanf` without crashing or entering infinite loops.
 - **Dynamic Display:** The board updates in real-time, replacing empty spaces with their corresponding numerical index (0-8) to clearly show available moves.
-- **Randomized AI:** The computer opponent uses `rand()` seeded with `time()` to ensure different gameplay every session.
+- **Randomized Opponent Moves:** The computer opponent uses `rand()` seeded with `time()` to ensure different gameplay every session.
 - **Continuous Play:** Players can choose to play multiple rounds in a row without restarting the application.
 
 ## Prerequisites
